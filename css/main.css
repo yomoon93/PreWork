@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh;
+    background: beige;
+}
+
+.logo {
+    color:blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    color: blueviolet;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 14px;
+} 
+
+#wel{
+    margin-top: 15px;
+    text-decoration: underline brown;
+    color:blueviolet;
+}
+
+/* added  */
+#main {
+    text-decoration: underline;
+    text-align: center;
+}
+h1{
+    text-align: center;
+   
+}
+h2{
+    color: brown;
+}
+h3{
+    text-align: center;
+}
+img{
+    float: left;
+    margin: 20px;
+    height: 350px;
+    width: auto;
+}
+.vid-container{
+    position: absolute;
+    top: 440px;
+    right:825px;
+}
+
+
+.par {
+    text-align: justify;
+    font-size: 25px;
+
+}
+
+li{
+    margin: 25px 0;
+    font-style: italic;
+}
+
+p{
+    font-size: 24px;
+    color:blue;
+}
+
+body{
+    background-color:rgb(170, 170, 126);
+    /* text-align: center; */
+}
+a{
+    color:purple;
+}
+span {
+    text-decoration: none;
+    color:blueviolet;
+    font-size: 50pt;
+    font-family: arial;
+}
+
+
+
+#div1{
+    margin-top: 100px;
+    background-color: yellow ;
+    width: auto;
+    height: 400px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+
+#div2{
+    background-color: rgb(204, 204, 157);
+    width:auto;
+    height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#div3{
+    background-color:blueviolet;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#div4{
+    margin-top: 100px;
+    background-color:yellow ;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#div1,#div2,#div3,#div4, #div5, #div6, #div7{
+    border:dashed;
+}
+form{
+    float:right;
+    padding: 40px;
+    box-shadow: 0 4px 10px 4px rgba(19,35,47, 0.3);
+    margin-right: 850px;
+    padding: 15px;
+    background-color: blueviolet;
+    font-style:oblique;
+    border-style: solid;
+    font-weight: 900px;
+    
+}
+input[type=button] {
+    color: lightblue;
+    background-color: rgb(0, 3, 200);
+    padding: 5px;
+}
+
+input[type=button]:hover {
+    color: violet;
+    background-color: rgb(0,200,0);
+    padding: 5px;
+}
+input[type=text]:focus {
+    background-color: rebeccapurple;
+    color: black;
+    width: 100%;
+    transition: 2s;
+}
+ /* styling for stories */
+ #div5{
+    background-color: rgb(143, 153, 51);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#div6{
+    background-color: rgb(204, 204, 157);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+
+#div7 {
+    background-color: blueviolet;
+    
+    width:auto;
+    height: 320px;
+    padding-left: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#games {
+    color: brown;
+    background-color: rgb(204, 204, 157);
+}
+li{
+    color: blue;
+    font-size: 20px;
+}
