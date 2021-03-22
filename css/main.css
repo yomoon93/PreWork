@@ -55,6 +55,7 @@ h1{
 }
 h2{
     color: brown;
+    font-style: italic;
 }
 h3{
     text-align: center;
@@ -85,6 +86,7 @@ li{
 
 p{
     font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
     color:blue;
 }
 
